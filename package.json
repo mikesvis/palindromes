@@ -1,0 +1,33 @@
+{
+  "name": "palindromes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --hide-modules --mode=production",
+    "dev": "webpack --hide-modules --mode=development --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.7.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "terser-webpack-plugin": "^1.2.3",
+    "webpack": "^4.31.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-cli": "^3.3.2"
+  }
+}
